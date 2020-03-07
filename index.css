@@ -1,0 +1,219 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+
+nav{
+    background-color: #007BC7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+
+}
+
+.sub-title {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div a{
+    line-height: 80px;
+}
+
+article header{
+    height: 500px;
+}
+
+main header{
+    /* 背景画像の指定方法 */
+    background-image: url(./img/london_regent_street.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main header p{
+    font-size: 50px;
+}
+
+.under {
+    border-bottom: 3px solid #007BC7;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.contents {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contents-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contents-title span {
+    color: #007BC7;
+}
+
+.contents p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-70 {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.sub-container {
+    width: 50%;
+}
+
+.sub-container img {
+    width: 100%;
+}
+
+.sub-container table {
+    width: 100%;
+}
+
+.contents2{
+    text-align: center;
+    margin-top: 20px;
+    color: #007BC7;
+}
+
+.under2 {
+    border-bottom: 3px solid #007BC7;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.contents-title2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contents2 p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.item {
+    width: 200px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 5px solid white;
+}
+
+.item h3{
+    color: #007BC7;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.items{
+    /* 背景画像の指定方法 */
+    background-image: url(./img/london_regent_street.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.contents3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.under3 {
+    border-bottom: 3px solid #007BC7;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.contents-title3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contents-title3 span {
+    color: #007BC7;
+}
+
+.children h2{
+    color: #007BC7;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.children p{
+    text-align: center;
+}
+
+.parent {
+    padding-bottom: 40px;
+}
+
+.contents3 h1 {
+    color: #007BC7;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+}
+
+footer {
+    background: #007BC7;
+    height: 150px;
+    padding-top: 30px;
+    color: white;
+}
+
+footer a {
+    color: white;
+
+}
+
+.box {
+    border: 3px solid #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.margin-auto {
+    margin: 0 auto;
+    width: 170px;
+}

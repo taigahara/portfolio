@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <style>
+        * {
+ padding: 0;
+ margin: 0;
+}
+
+nav{
+    background-color: #007BC7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+
+}
+
+.sub-title {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div a{
+    line-height: 80px;
+}
+
+article header{
+    height: 500px;
+}
+
+main header{
+    /* 背景画像の指定方法 */
+    background-image: url(./img/london_regent_street.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main header p{
+    font-size: 50px;
+}
+
+.under {
+    border-bottom: 3px solid #007BC7;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.contents {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contents-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contents-title span {
+    color: #007BC7;
+}
+
+.contents p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-70 {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.sub-container {
+    width: 50%;
+}
+
+.sub-container img {
+    width: 100%;
+}
+
+.sub-container table {
+    width: 100%;
+}
+
+.contents2{
+    text-align: center;
+    margin-top: 20px;
+    color: #007BC7;
+}
+
+.under2 {
+    border-bottom: 3px solid #007BC7;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.contents-title2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contents2 p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.item {
+    width: 200px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 5px solid white;
+}
+
+.item h3{
+    color: #007BC7;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.items{
+    /* 背景画像の指定方法 */
+    background-image: url(./img/london_regent_street.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.contents3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.under3 {
+    border-bottom: 3px solid #007BC7;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.contents-title3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contents-title3 span {
+    color: #007BC7;
+}
+
+.children h2{
+    color: #007BC7;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.children p{
+    text-align: center;
+}
+
+.parent {
+    padding-bottom: 40px;
+}
+
+.contents3 h1 {
+    color: #007BC7;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+}
+
+footer {
+    background: #007BC7;
+    height: 150px;
+    padding-top: 30px;
+    color: white;
+}
+
+footer a {
+    color: white;
+
+}
+
+.box {
+    border: 3px solid #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.margin-auto {
+    margin: 0 auto;
+    width: 170px;
+}
+    </style>
+        
+    
+</head>
+<body>
+    <!--内部リンク-->
+<header>
+        <nav>
+            <div>
+              <a class="title" href="#">Portfolio</a>
+            </div>
+            <ul>
+                <li><a class="sub-title" href="#profile">profile</a></li>
+                <li><a class="sub-title" href="#selfpr">selfpr</a></li>
+                <li><a class="sub-title" href="#vision">vision</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- メインコンテンツ -->
+    <main>
+        <article>
+            <header class="main_header">
+                <p>人生に失敗が無いと人生を失敗する</p>
+                <h1>原　大河　first Portfolio</h1>
+                
+            </header>
+                <div class="contents" id="profile">
+                    <div class="contents-title"><span>P</span>rofile</div>
+                    <div class="under"></div>
+                    <p>自己紹介</p>
+                </div>
+                <div class="container">
+                    <div class="container-70">
+                        <div class="sub-container">
+                            <img src="./img/スーツ.jpg" alt="">
+                        </div>
+                        <div class="sub-container">
+                                <table>
+                                        <tr>
+                                            <th>Name.</th>
+                                            <td>原　大河</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age.</th>
+                                            <td>２１</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Career.</th>
+                                            <td>東京経済大学在学</td>
+                                        </tr>
+                                    </table>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+            <div class="contents2" id="selfpr">
+                <div class="contents-title2">Self PR</div>
+                <div class="under2"></div>
+                <p>自己PR</p>
+            </div>
+                    <div class="items">
+                            <div class="item">
+                                <h3>好きなこと</h3>
+                                <p>
+                                旅行　バレーボール　読書
+                                </p>
+                            </div>
+                            <div class="item">
+                                <h3>得意なこと</h3>
+                                <p>
+                                バレーボール
+                                </p>
+                            </div>
+                            <div class="item">
+                                <h3>今までの経験</h3>
+                                <p>
+                    　　　　　　　　イギリスに一か月の留学
+                                </p>
+                            </div>
+                    </div>
+            </section>
+            <div class="contents3" id="vision">
+                <div class="contents-title3">
+                    <span>V</span>ision
+                </div>
+                <div class="under3"></div>
+                <p>目標</p>
+                <div class="parent">
+                        <div class="children">
+                         <h2>クリエイティブ性を取り入れた人材になる</h2>
+                         <p>
+                         行動力を身に着けたい
+                        <br></br>
+                         一生懸命頑張ります
+                         </p>
+                         </div>
+                    </div> 
+                    <h1>NEXT COMING SOON</h1>  
+            </div>    
+        </article>
+    </main>
+    <footer>
+        <div class="margin-auto">
+        <a href="#">
+            <p class="box">top</p>
+        </a>
+        <p>
+            created by 原　大河
+        </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
